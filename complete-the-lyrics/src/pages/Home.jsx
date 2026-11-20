@@ -1,4 +1,4 @@
-import { SingerNav } from '../components/SingerNav.jsx'
+import SingerNav from '../components/SingerNav.jsx'
 
 export default function Home({ lyrics }) {
     return (

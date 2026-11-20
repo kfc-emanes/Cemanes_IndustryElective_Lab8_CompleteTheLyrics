@@ -7,7 +7,7 @@ export default function SingerNav() {
             {singers.map((singer) => (
                 <NavLink
                     key={singer.id}
-                    to={`singer/${singer.id}`}
+                    to={`/singer/${singer.id}`}
                     style= {{ backgroundColor: singer.color }}
                     className = {({ isActive}) =>
                         `singer-tab ${isActive ? 'active-tab' : ''}`

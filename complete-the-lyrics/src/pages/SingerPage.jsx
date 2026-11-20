@@ -38,6 +38,9 @@ return (
             <span>
                 Active Singer: <strong>{singer.name}</strong>
             </span>
+            <span>
+                Note:  Press Enter to Submit your lyrics.
+            </span>
             <Link to="/" className="home-link">
                 ← Return Home
             </Link>
