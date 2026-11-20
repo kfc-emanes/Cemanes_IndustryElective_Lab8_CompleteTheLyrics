@@ -15,7 +15,7 @@ export default function Home({ lyrics }) {
                         <div
                             key={line.id}
                             className="lyric-pill"
-                            <style = {{ backgroundColor: line.color }}
+                            style = {{ backgroundColor: line.color }}
                         >
                             {line.text}
                         </div>
